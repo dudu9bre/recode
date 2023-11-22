@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.menu {
+    display: flex;
+    height: 6em;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+.menu a {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: white;
+    color: red;
+}
+.menu a#pagi:hover {
+    background-color: transparent;
+}
+.menu img {
+    width: 150px;
+    padding: 10px;
+}
+main {
+    margin: 12px;
+}
+h2, h3 {
+    padding: 10px;
+}
+footer {
+    text-align: center;
+}
+footer p#forma_pagamento {
+    color: red;
+}
+footer img {
+    width: 300px;
+}
