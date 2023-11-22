@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="menu">
-        <a href="index.html"><img width="100px" src="https://fullstackeletro.netlify.app/imagem/logo.jpeg" alt="Full Stack Eletro"></a>
+        <a id="pagi" href="index.html"><img width="100px" src="https://fullstackeletro.netlify.app/imagem/logo.jpeg" alt="Full Stack Eletro"></a>
         <a href="produtos.html">Nossos produtos</a>
         <a href="lojas.html">Nossas lojas</a>
         <a href="contato.html">Fale conosco</a>
@@ -22,6 +22,44 @@
     <br>
     <br>
     <br>
+    <ul id="ilista" class="lista"> <h3>Categorias</h3>
+        <li class="categorias" onclick="exibirTodos()">Todos (12)</li>
+        <li class="categorias" onclick="exibir('geladeira')">Geladeiras (3)</li>
+        <li class="categorias" onclick="exibir('fogao')">Fogões (2)</li>
+        <li class="categorias" onclick="exibir(microondas)">Micro ondas (3)</li>
+        <li class="categorias" onclick="exibir('maquina')">Máquina de lavar (2)</li>
+        <li class="categorias" exibir(lavadora)>Lava louças (2)</li>
+    </ul>
+    <section class="produtos" id="iprodutos">
+        <div id="geladeira">
+            <img class="fotoproduto" src="https://fullstackeletro.netlify.app/imagem/geladeirag.webp" alt="geladeira eletrolux">
+            <hr class="quebra">
+            <p class="nomeproduto">Geladeira Eletrolux</p>
+            <p class="precoantigo"><del>R$ 3.099,99</del></p>
+            <p class="preconovo">R$ 2.799,99</p>
+        </div>
+        <div>
+            <img class="fotoproduto" src="https://fullstackeletro.netlify.app/imagem/geladeirag.webp" alt="geladeira eletrolux">
+            <hr class="quebra">
+            <p class="nomeproduto">maquina</p>
+            <p class="precoantigo"><del>R$ 3.099,99</del></p>
+            <p class="preconovo">R$ 2.799,99</p>
+        </div>
+        <div>
+            <img class="fotoproduto" src="https://fullstackeletro.netlify.app/imagem/geladeirag.webp" alt="geladeira eletrolux">
+            <hr class="quebra">
+            <p class="nomeproduto">microondas</p>
+            <p class="precoantigo"><del>R$ 3.099,99</del></p>
+            <p class="preconovo">R$ 2.799,99</p>
+        </div>
+        <div>
+            <img class="fotoproduto" src="https://fullstackeletro.netlify.app/imagem/geladeirag.webp" alt="geladeira eletrolux">
+            <hr class="quebra">
+            <p class="nomeproduto">fogao</p>
+            <p class="precoantigo"><del>R$ 3.099,99</del></p>
+            <p class="preconovo">R$ 2.799,99</p>
+        </div>
+    </section>
     <footer id="rodape">
         <p id="forma_pagamento">Formas de pagamento</p>
         <p>
@@ -29,5 +67,6 @@
         </p>
         <p>Carlos</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

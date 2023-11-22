@@ -23,6 +23,7 @@ nav.menu {
 .menu a:hover {
     background-color: white;
     color: red;
+    transition: .3s;
 }
 .menu a#pagi:hover {
     background-color: transparent;
@@ -36,6 +37,27 @@ main {
 }
 h2, h3 {
     padding: 10px;
+}
+li.categorias {
+    margin-left: 20px;
+    cursor: pointer;
+    width: 80px;
+    padding-bottom: 5px;
+}
+li.categorias:hover {
+    color: white;
+    background-color: red;
+    transition: .3s;
+}
+section.produtos {
+    position: absolute;
+    top: 25%;
+    left: 16%;
+    display: flex;
+}
+img.fotoproduto {
+    width: 150px;
+
 }
 footer {
     text-align: center;
