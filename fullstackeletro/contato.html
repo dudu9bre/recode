@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos - Full Stack Eletro</title>
+    <title>Contato - Full Stack Eletro</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
@@ -21,8 +21,19 @@
     <br>
     <br>
     <main>
-        <h3>Produtos</h3>
+        <h3>Contato</h3>
         <hr>
+        <section id="contato">
+            <p><span class="material-symbols-outlined">mail</span>contato@fullstackeletro.com</p>
+            <p><span class="material-symbols-outlined">call</span>(11) 99999-9999</p>
+            <form action="mensagem.php" method="post">
+                <label for="inome">Nome:</label>
+                <input name="nome" id="inome" type="text" minlength="3" maxlength="30" placeholder="seu nome">
+                <label for="imsg">Mensagem:</label>
+                <textarea name="msg" id="ismg" cols="30" rows="10" placeholder="escreva sua mensagem"></textarea>
+                <input id="envia" type="submit" value="Enviar">
+            </form>
+        </section>
     </main>
     <br>
     <br>
@@ -30,16 +41,6 @@
     <br>
     <br>
     <br>
-    <ul id="cat"><h4>Categorias</h4>
-        <div id="categorias">
-            <li class="cate" id="todos">Todos (12)</li>
-            <li class="cate" id="geladeira">Geladeiras (3)</li>
-            <li class="cate" id="fogao">Fogões (2)</li>
-            <li class="cate" id="microonda">Micro-ondas (3)</li>
-            <li class="cate" id="maquina">Máquina de lavar (2)</li>
-            <li id="lavadora">Lava Louças (2)</li>
-        </div>
-    </ul>
     <footer>
         <p id="pformas-pagamento">Formas de pagamento</p>
         <img id="formas-pagamento" src="https://fullstackeletro.netlify.app/imagem/cartao.jpeg" alt="formas de pagamento">
