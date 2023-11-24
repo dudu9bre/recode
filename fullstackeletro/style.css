@@ -65,6 +65,26 @@ main section#contato textarea {
 main section#contato input#envia {
     margin-left: 200px;
 }
+section div#produtos {
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+section div#produtos img.produto {
+    width: 100px;
+}
+section div#produtos img.produto:hover {
+    width: 125px;
+    transition: .2s;
+}
+section div#produtos hr {
+    margin: auto;
+    width: 150px;
+}
+section div#produtos p.preconovo {
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    color: red;
+}
 ul#cat {
     text-indent: 20px;
 }
