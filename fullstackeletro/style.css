@@ -112,3 +112,36 @@ footer img#formas-pagamento {
 footer p#meunome {
     margin-bottom: 20px;
 }
+@media screen and (min-width:600px) {
+    header {
+        display: flex;
+        height: 110px;
+    }
+    header nav#inav {
+        display: flex;
+        height: 40px;
+        position: relative;
+        top: 70px;
+        left: 20px;
+    }
+    header img#fullstackeletro {
+        display: block;
+        width: 150px;
+        padding-bottom: 10px;
+    }
+    header span.material-symbols-outlined {
+        display: none;
+    }
+    header nav#inav a.nav {
+        display: inline-block;
+        margin-right: 50px;
+        background-color: red;
+    }
+    header nav#inav a.nav:hover {
+        background-color: white;
+    }
+    section div#produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
