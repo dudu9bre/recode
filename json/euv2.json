@@ -1,0 +1,8 @@
+{
+    "nome": "Carlos",
+    "endereco": {
+        "bairro": "Leblon",
+        "estado": "Rio de Janeiro"
+    },
+    "dinheiro": 9999999999999999999999999999999999999999999999999999999999999999999
+}

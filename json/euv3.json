@@ -1,0 +1,17 @@
+{
+    "nome": "Carlos",
+    "endereco": {
+        "bairro": "Leblon",
+        "estado": "Rio de Janeiro"
+    },
+    "telefones": [
+        {
+            "representante": "Carlos",
+            "telefone": "4002-8922"
+        },
+        {
+            "representante": "Vó",
+            "telefone": "0800-0800"
+        }
+    ]
+}
